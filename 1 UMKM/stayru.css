@@ -1,0 +1,101 @@
+a {
+    font-size: 14px;
+    font-weight: 700
+}
+
+.superNav {
+    font-size: 13px;
+}
+
+.form-control {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width:540px) {
+    .centerOnMobile {
+        text-align: center
+    }
+}
+
+.brand {
+    color: #0CCA9A;
+}
+
+.sign-container {
+    max-width: 470px;
+}
+
+.icon-height {
+    height: 24px;
+    width: 24px;
+}
+
+.right-box {
+    background: linear-gradient(#0CCA9A, #0DCA78);
+}
+
+.inputbox {
+    border: 1px solid #cfcece;
+    outline: none;
+}
+
+.inputbox:focus {
+    border: 2px solid #0DCA78;
+}
+
+.input-label {
+    top: -12px;
+    left: 3%;
+}
+
+.sign-up {
+    background: #0DCA78;
+    color: #fff;
+}
+
+.sign-up:hover {
+    background: #fff;
+    color: #0DCA78;
+    border: 1px solid #0DCA78;
+}
+
+.signin-border {
+    width: 60px;
+    border: 2px solid #0DCA78;
+}
+
+#login-mamank {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    /* Warna latar belakang dengan transparansi */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+    /* Atur nilai z-index untuk menentukan urutan tumpang tindih */
+}
+
+#login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.797);
+}
+
+.jir {
+    color: #0CCA9A;
+}
+
+#close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+}
